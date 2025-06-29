@@ -10,7 +10,10 @@
     {% section 'header' %}
     <main>
         {% section 'hero-banner' %}
-        {{content_for_layout}}
-        </main>
+      {% section 'featured-collections' %}
+      {{content_for_layout}}
+    </main>
+    {% section 'footer' %}
   </body>
 </html>
+
